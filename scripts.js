@@ -1,4 +1,3 @@
-const WebSocketClient = require('websocket').client;
 const client = new WebSocketClient();
 
 client.on('connectFailed', function(error) {
