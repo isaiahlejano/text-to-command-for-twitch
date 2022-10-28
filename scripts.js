@@ -11,3 +11,4 @@ client.on('connect', function(connection) {
 });
 
 client.connect('ws://irc-ws.chat.twitch.tv:80');
+// test
